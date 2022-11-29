@@ -1,0 +1,120 @@
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ }
+
+ .styled-table thead tr { 
+    background-color: #980081; color: #ffffff; text-align: middle;
+ }
+
+ tbody tr:nth-child(odd) {
+    background-color: #d6a00c;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: hsl(66, 93%, 52%);
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #96b102;
+  }
+  thead, tfoot {
+    background: url(tigrepiel.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px rgb(145, 105, 21);
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, #9aa312d8, rgba(8, 143, 167, 0.5));
+    border: 3px solid purple;
+  }
+  
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+
+body {
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;  
+  background: #000;
+
+}
+
+th {     
+    font-size: 13px;    
+    font-weight: normal;    
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff;
+    color: #039; 
+    text-align:center;
+} 
+
+
+p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+  
+ table:last-child {
+    color: rgb(13, 174, 214);
+    background-color: rgb(196, 29, 29);
+    padding: 5px;
+  }
+  
+ 
+  h1:nth-child(-n+3) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+    margin:auto;
+}
+
+h2,h3{
+    margin: auto;
+}
